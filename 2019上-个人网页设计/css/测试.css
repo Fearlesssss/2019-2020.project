@@ -1,0 +1,13 @@
+/*
+* @Author: ASUS
+* @Date:   2019-07-28 14:11:44
+* @Last Modified by:   ASUS
+* @Last Modified time: 2019-07-28 14:15:43
+*/
+'use strict';
+<script>
+$(function()
+{
+alert("hello world");
+});
+</script>

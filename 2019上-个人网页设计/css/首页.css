@@ -1,0 +1,190 @@
+/* 
+* @Author: ASUS
+* @Date:   2019-05-16 08:20:32
+* @Last Modified by:   ASUS
+* @Last Modified time: 2019-08-08 23:27:35
+*/
+@charset "utf-8";
+* {
+	margin: 0;
+	padding: 0;
+}
+em,i {
+	font-style: normal;
+}
+li {
+	list-style: none;
+}
+img {
+	border: 0;
+	vertical-align: middle;
+}
+#aa {
+	background: url("../图片/44.jpg") no-repeat;
+	background-position: center center;
+	background-attachment: fixed;/*固定背景位置*/
+	background-size: cover;/*设置背景图的大小，不管多大都占完我整个界面*/
+	font-family: Tahoma,Arial,Roboto,"Droid Sans","Helvetica Neue","Droid Sans Fallback","Heiti SC",sans-self;
+}
+button {
+	cursor: pointer;
+}
+a {
+	color: #666;
+	text-decoration: none;
+}
+a:hover {
+	color: #c81623;
+}/*使得鼠标放上去变色*/
+.header {
+	line-height: 50px;
+	background: rgba(0,0,0,0.2);
+
+}
+.header nav {
+	height: 60px;
+	background: #fff;
+	opacity: 0.8;
+
+}
+nav ul li {
+	float: right;
+	margin-right: 30px;
+}
+.logo {
+	float: left;
+	margin-left: 40px;
+	padding-top: 8px;
+}
+.logo a {
+	font-size: 35px;
+	color: #AAA;
+	font-weight: 700;
+	letter-spacing: 2px;
+	 font-family: "STXingkai";
+}
+.bb .cc {
+	color: #fff;
+	text-align: center;
+	/*background: black;*/
+	margin: 0 auto;
+	max-width: 300px;
+	/*margin-top: 140px;*/
+	position: relative;
+	top:160px;
+}
+.line{
+	width: 65%;
+	height: 2px;
+	background: #fff;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+.cc h1{
+	margin-bottom: 10px;
+}
+.bb .cc p{
+	line-height: 30px;
+	font-size:18px;
+	letter-spacing: 1px;
+}
+.bb {
+	height: 600px;
+}
+.content {
+	opacity: 0.9;/*设置不透明度*/
+}
+.dd {
+	text-align: center;
+	color: #fff;
+	background: rgba(67,178,165,1);
+	padding-top: 65px;
+	opacity: 0.95;
+	height: 300px;
+}
+.ee {
+	max-width: 1080px;
+	margin: 0 auto;
+}
+.ee h1 {
+	padding: 15px 0;
+	font-size: 27px;
+}
+.ee .line {
+	margin: 15px auto;
+	width: 50%;
+	background: darkgray;
+}
+.ee p{
+	padding: 10px 0;
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+
+
+.hh {
+	margin: 30px auto;
+	padding-bottom: 30px;
+
+}
+.hh .item {
+	margin-right: 50px;  /*使得均匀分布*/
+	border: 2px solid green;
+	display: inline-block;
+	height: 80px;
+	width: 80px;
+	transform: rotate(45deg);/*让我的小正方形旋转45度,不适用于谷歌浏览器*/
+
+}
+.hh .item img {
+	width: 100%;
+	height: 100%;
+	transform: rotate(- 45deg);
+	border-radius: 40px;
+	transform: rotate(-45deg);
+}
+.footer {
+	background: #333;
+	min-height: 200px;
+	text-align: center;
+	color: #fff;
+	opacity: 0.9;/*设置不透明度*/
+}
+.ss {
+	display: block;
+	margin: 0 auto;
+	width: 1080px;
+	padding: 45px;
+}
+.ss li{
+	display: inline-block;
+	padding: 10px;
+	font-size: 20px;
+}
+.ccc {
+	position: relative;
+}
+.ccc span {
+	position: absolute;
+	height: 4px;
+	background: #cbf;
+	bottom: 5px;
+	left: 0;
+	width: 100%;
+	border-radius: 10px;
+}
+.top {
+	width: 50px;
+	height: 30px;
+	position: fixed;
+	right: 30px;
+	bottom:70px;
+}
+.top img {
+	width: 10px;
+	height: 50px;
+}
+.top img, p {
+	width: 100%;
+	text-align: center;
+}
